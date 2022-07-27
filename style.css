@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.no-gutter>[class*="col-"] {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.frontend-container {
+    margin-right: 0;
+}
+
+.backend-container {
+    margin-left: 0;
+}
+
+.darkMode {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.light-mode {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.mini-container {
+    background-color: #fff;
+}
+
+.light-mini-container {
+    background-color: #000;
+}
+
+.img-container {
+    padding-top: 80px;
+}
+
+.my-img {
+    width: 136px;
+    height: 136px;
+    border-radius: 100%;
+}
+
+.img-border {
+    border: 2.9px solid #6BB8F6;
+    padding: 3.5px;
+}
+
+
+.my-name {
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: 600;
+    color: #223A4F;
+    margin-top: 10px;
+}
+
+.light-my-name {
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.my-profession {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    color: #888989;
+    margin-top: -3px;
+}
+
+.light-my-profession {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    color: #d3d3d3;
+    margin-top: -2px;
+}
+
+.list-type {
+    list-style-type: none;
+    margin-left: -27px;
+}
+
+.social-icon {
+    font-size: 18px;
+    margin-right: 7px;
+    color: #222;
+}
+
+.light-social-icon {
+    font-size: 18px;
+    margin-right: 7px;
+    color: #dbdbdb;
+}
+
+.experience {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #223A4F;
+}
+
+.light-experience {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.experience-des {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    color: #888989;
+}
+
+.light-experience-des {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    color: #d3d3d3;
+}
+
+.download-btn {
+    width: 145px;
+    height: 45px;
+    background-color: #42A4F5;
+    border-radius: 10px;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    border-width: 0px;
+    margin-right: 18px;
+}
+
+.icon-social {
+    font-size: 23px;
+    color: #222;
+}
+
+.light-icon-social {
+    font-size: 23px;
+    color: #fff;
+}
+
+.icon-container {
+    background-color: #E9EBED;
+    margin-right: 11px;
+    width: 42px;
+    height: 40px;
+    border-radius: 6px;
+    padding-top: 8px;
+    padding-left: 11px;
+}
+
+.light-icon-container {
+    background-color: #222;
+    margin-right: 11px;
+    width: 42px;
+    height: 40px;
+    border-radius: 6px;
+    padding-top: 8px;
+    padding-left: 11px;
+}
+
+.buttons-container {
+    background-color: #E9EBED;
+    width: 298px;
+    height: 58px;
+    padding-top: 8px;
+    border-radius: 8px;
+}
+
+.light-buttons-container {
+    background-color: #222;
+    width: 298px;
+    height: 58px;
+    padding-top: 8px;
+    border-radius: 8px;
+}
+
+.projects-btn {
+    color: #223A4F;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: #fff;
+    height: 43px;
+    width: 134px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.light-projects-btn {
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: #000;
+    height: 43px;
+    width: 134px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+
+
+
+.skills-btn {
+    color: #223A4F;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 16px;
+    background-color: #fff;
+    height: 43px;
+    width: 134px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.light-skills-btn {
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 16px;
+    border-width: 0px;
+    border-radius: 16px;
+    background-color: #000;
+    height: 43px;
+    width: 134px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.trans-btn {
+    background-color: transparent;
+    /*#E9EBED*/
+}
+
+.light-trans-btn {
+    background-color: #222;
+    /*#E9EBED*/
+}
+
+
+.project-img {
+    width: 220px;
+    height: 165px;
+    border-radius: 12px;
+}
+
+.skills-heading {
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: bold;
+    color: #223A4F;
+}
+
+.light-skills-heading {
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: bold;
+    color: #efefef;
+}
+
+.skill-name {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+}
+
+.light-skill-name {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 600;
+    color: #e9ebed;
+}
+
+.check-mark {
+    font-size: 15px;
+    color: #0dcce5;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.skill-rate {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #888989;
+    margin-top: -13px;
+}
+
+.light-skill-rate {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #d3d3d3;
+    margin-top: -13px;
+}
+
+.footer {
+    color: #888989;
+    font-size: 13px;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
